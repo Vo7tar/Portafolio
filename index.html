@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Portafolio</title>
+</head>
+<body>
+    <header>
+        <div id="navegacion">
+            <div id="marca-personal" class="contenido-centrado">
+                <img src="/Imagenes/jairo-Icon.png">
+                <h1>JAIRO.DEV</h1>
+            </div>
+            <nav class ="panel-navegacion">
+                <a href="#mi-info-text" class="link-navegacion">Sobre mi</a>
+                <a href="#skills-info" class="link-navegacion">Skills</a>
+                <a href="https://github.com/Vo7tar?tab=repositories" class="link-navegacion">Proyectos</a>
+            </nav> 
+        </div>   
+    </header>
+    <div id="citas-aleatorias" class="frases-aleatorias">
+        <div id ="contenedor-interno"class="contenido-centrado">
+            <p id="cita" class="contenido-centrado"><br></p>
+            <p id="autor" class="contenido-centrado"></p>
+        </div>
+        <div id="boton-cambiar-cita">
+            <button type="button"  class="btn btn-primary">Siguiente Cita</button>
+        </div>
+    </div>
+    <main id="principal">
+        <section id="mi-info" class="informacion">
+            <div id="foto" class = "informacion">
+                <img src="/Imagenes/Foto 1 black.jpg" alt="foto-personal">
+            </div>
+            <div id="mi-info-text">
+                <h2>¿Quién soy?</h2>
+                <br>
+                <p>Mi nombre es <em>Jairo luis Lambis Devoz</em> Vivo y nací en Cartagena (Colombia); Me considero amante de la tecnología, las computadoras, del mundo de la programación y sobre todo del Frontend; me gusta construir paginas Web, me apasiona la maquetación y el estilo (HTML-CSS) claro todo esto de la mano de JavaScript.
+                 En la actualidad soy estudiante de programación en el proyecto Oracle Next Education en Alura Latam.
+                <br>
+                <br>Mis hobbies son el cine y la musica, en mi tiempo libre suelo jugar al futbol y video juegos, tambien me gusta la lectura y jugar al ajedrez(aunque no soy muy bueno en este).
+                </p>
+            </div>
+        </section>
+        <section id="informacion-skills">
+            <div id= "mis-skills"class="skills">
+                <div id="skills-info">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Git</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <figure>
+                    <img src="/Imagenes/html_html5_icon.png" alt="logo-HTML5" class="informacion-imagen">
+                    <figcaption>HTML5</figcaption>
+                </figure>
+                <figure>
+                    <img src="/Imagenes/css3_icon.png" alt="logo-CSS3" class="informacion-imagen">
+                    <figcaption>CSS3</figcaption>
+                </figure>
+                <figure>
+                    <img src="/Imagenes/js_lcon.png" alt="logo-JavaScript" class="informacion-imagen">
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+                <figure>
+                    <img src="/Imagenes/git_icon.png" alt="logo-Git" class="informacion-imagen">
+                    <figcaption>Git</figcaption>
+                </figure>
+                <figure>
+                    <img src="/Imagenes/react_react native_icon.png" alt="logo-React" class="informacion-imagen">
+                    <figcaption>React</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="mi-contacto" class ="pie-pagina-contacto">
+            <ul class ="ul-pie-pagina">
+                <li><a href="https://github.com/Vo7tar?tab=repositories">Github</a></li>
+            </ul> 
+
+            <p class="copyright-nombre">&#169 Jairo Luis Lambis Devoz</p>
+        </div>   
+    </footer>
+    <script src="citas.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
